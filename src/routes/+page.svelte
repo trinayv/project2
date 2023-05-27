@@ -72,3 +72,193 @@
       <i class="fa-solid fa-magnifying-glass"></i> Adventure and Exploring
     </div>
   </div>
+
+  <style>
+  ul {
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+}
+
+.time {
+  margin-left: 16px;
+  text-align: justify;
+  margin-right: 18px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.profile-text2 {
+  text-align: justify;
+  font-family: "Nunito Sans", sans-serif;
+  margin-right: 40px;
+  margin left: 10px;
+}
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #cfcfcf;
+}
+
+.readable-area {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 0 5%;
+}
+
+img {
+  width: 128px;
+  height: 128px;
+  border: 14px solid white;
+  border-radius: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  justify-content: end;
+  align-items: left;
+}
+
+h1 {
+  font-family: "Public Sans", sans-serif;
+  padding-top: 10px;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  padding-top: 6px;
+}
+
+.content-column {
+  text-align-last: justify;
+}
+
+.section-title {
+  padding: 4px 16px;
+  margin: 16px 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.title-icon {
+  margin-right: 20px;
+}
+
+.profile {
+  padding: 4px 18px;
+  padding-top: 32px;
+  font-weight: 500;
+  margin: 16px 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+  text-transform: UPPERCASE;
+  letter-spacing: 8px;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 16px;
+  margin-right: 16px;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.hr2{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 16px;
+  margin-right: 80px;
+  border-style: inset;
+  border-width: 1px;
+  height:1.5px;
+  border-width:0;
+  color: black;
+  background-color:gray;
+}
+
+.profile-text {
+  text-align: justify;
+  margin-right: 18px;
+  margin-left: 18px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.gauge {
+  display: flex;
+  flex-direction: row;
+  margin-left: 8px;
+  margin-right: 70px;
+}
+
+.bullet {
+  border-radius: 100%;
+  width: 16px;
+  height: 16px;
+  margin: 1px;
+  margin-right: 10px;
+  background-color: #cfcfcf;
+}
+
+.filled-bullet {
+  background-color: #737373;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+a.skill {
+  flex: 1;
+}
+
+.skill-title {
+  flex: 1;
+  margin-left: 2px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.fa-magnifying-glass {
+  margin-left: 10px;
+  margin-right: 15px;
+  font-size: 30px;
+}
+
+@media (max-width: 600px){
+  .header {
+    flex-direction: column-reverse;
+  }
+  .header-text {
+    text-align: center;
+  }
+  .content {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}
