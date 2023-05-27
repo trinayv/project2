@@ -1,3 +1,12 @@
+<script lang="ts">
+	import Icon from 'svelte-awesome';
+	import location-dot from 'svelte-awesome/icons/location-dot';
+	import envelope-open from 'svelte-awesome/icons/envelope-open';
+	import laptop from 'svelte-awesome/icons/laptop';
+	import magnifying-glass from 'svelte-awesome/icons/magnifying-glass';
+</script>
+
+
 <div class="readable-area">
   <div class="header">
     <div style="background-color:#f4f4f4;padding:16px;margin:32px; width: 257px;height:746px;float: left;">
@@ -10,20 +19,20 @@
       <div class="content">
         <div class="content-column">
           <div class="section-title">
-            <i class="fa-sharp fa-solid fa-location-dot title-icon"></i>
+            <Icon data={locaiton-dot} />
             The Great Barrier Reef
           </div>
         </div>
         <div class="content-column">
           <div class="section-title">
-            <i class="fa-sharp fa-solid fa-envelope-open-text title-icon"> </i>
+            <Icon data={envelope-open} />
             findingnemo@gmail.com
           </div>
         </div>
         <div class="content-column">
           <div class="section-title">
 
-            <i class="fa-solid fa-laptop title-icon"></i>
+            <Icon data={laptop} />
             www.findingnemo.com
           </div>
         </div>
@@ -69,7 +78,7 @@
     <h2 class="profile"> interest </h2>
     <hr class="hr2">
     <div class="section-title">
-      <i class="fa-solid fa-magnifying-glass"></i> Adventure and Exploring
+      <Icon data={magnifying-glass} /> Adventure and Exploring
     </div>
   </div>
 
