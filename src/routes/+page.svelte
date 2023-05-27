@@ -66,7 +66,6 @@
         <span class="profile-text2">2003</span>
         <span class="time">The School Fish</span>
     </ul>
-    </p>
     <h2 class="profile"> interest </h2>
     <hr class="hr2">
     <div class="section-title">
@@ -99,7 +98,7 @@ li {
   text-align: justify;
   font-family: "Nunito Sans", sans-serif;
   margin-right: 40px;
-  margin left: 10px;
+  margin-left: 10px;
 }
 html {
   height: 100%;
