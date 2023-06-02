@@ -15,6 +15,9 @@
 
 </svelte:head>
 
+<slot />
+
+
 <style>
 	:global(*) {
 		font-family: "Nunito Sans", sans-serif;
