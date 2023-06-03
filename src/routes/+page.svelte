@@ -40,7 +40,6 @@
     <h2 class="profile"> skills </h2>
     <hr class="hr2">
     <li class="skill">
-      <a class="skill">
         <span class="skill-title">Swimming Speed</span>
         <div class="gauge">
           <div class="bullet filled-bullet"></div>
@@ -49,7 +48,6 @@
           <div class="bullet"></div>
           <div class="bullet"></div>
         </div>
-      </a>
     </li>
     <li class="skill">
       <span class="skill-title">Physical Strength</span>
@@ -226,10 +224,6 @@ li {
   flex-direction: row;
   align-items: center;
   margin-bottom: 2px;
-}
-
-a.skill {
-  flex: 1;
 }
 
 .skill-title {
