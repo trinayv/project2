@@ -9,7 +9,11 @@
 <div class="readable-area">
   <div class="header">
     <div style="background-color:#f4f4f4;padding:16px;margin:32px; width: 257px;height:746px;float: left;">
-      <a href="https://i.pinimg.com/564x/08/a0/52/08a052d80710e6bea5f44cbc00088b99.jpg"> <img src="https://i.pinimg.com/564x/08/a0/52/08a052d80710e6bea5f44cbc00088b99.jpg" title="Profile Picture" class="center">
+      <a href="https://i.pinimg.com/564x/08/a0/52/08a052d80710e6bea5f44cbc00088b99.jpg">
+        <img
+        alt="nemo avatar"
+        class="center"
+        src="https://i.pinimg.com/564x/08/a0/52/08a052d80710e6bea5f44cbc00088b99.jpg" title="Profile Picture" />
       </a>
       <div class="header-text">
         <h1> Nemo </h1>
