@@ -123,12 +123,21 @@ img {
   width: 50%;
 }
 
+.header {
+		padding: 16px;
+		flex-direction: column-reverse;
+		align-items: center;
+		border-bottom: 2px solid black;
+		text-decoration: none;
+}
+
 .header-text {
   display: flex;
   flex-direction: column;
   padding: 16px;
   justify-content: end;
   align-items: left;
+  text-align: center;
 }
 
 h1 {
@@ -233,18 +242,28 @@ li {
 }
 
 
-@media (max-width: 600px){
-  .header {
-    flex-direction: column-reverse;
-  }
-  .header-text {
-    text-align: center;
-  }
-  .content {
-    flex-direction: column;
-  }
-  h1 {
-    font-size: 1.5em;
-  }
-}
+
+@media (min-width: 600px) {
+		.header {
+			flex-direction: row;
+		}
+
+		.header-text {
+			text-align: justify;
+		}
+
+		.content {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		.readable-area {
+			margin: 0 10%;
+		}
+	}
+
+	@media (min-width: 1000px) {
+		.readable-area {
+			margin: 0 20%;
+		}
+	}
 </style>
