@@ -1,3 +1,10 @@
+<script lang="ts">
+  import Section from '$components/Section.svelte';
+  import mapPin from 'svelte-awesome/icons/mapPin';
+  import envelope from 'svelte-awesome/icons/envelope';
+  import desktop from 'svelte-awesome/icons/desktop';
+  import search from 'svelte-awesome/icons/search';
+</script>
 
 <div class="readable-area">
   <div class="header">
@@ -11,21 +18,17 @@
       <div class="content">
         <div class="content-column">
           <div class="section-title">
-            <i class="fa-sharp fa-solid fa-location-dot title-icon"></i>
-            The Great Barrier Reef
+            <Section iconData={mapPin} title="The Great Barrier Reef" />
           </div>
         </div>
         <div class="content-column">
           <div class="section-title">
-            <i class="fa-sharp fa-solid fa-envelope-open-text title-icon"> </i>
-            findingnemo@gmail.com
+            <Section iconData={envelope} title="findingnemo@gmail.com" />
           </div>
         </div>
         <div class="content-column">
           <div class="section-title">
-
-            <i class="fa-solid fa-laptop title-icon"></i>
-            www.findingnemo.com
+            <Section iconData={desktop} title="www.findingnemo.com" />
           </div>
         </div>
       </div>
@@ -69,7 +72,7 @@
     <h2 class="profile"> interest </h2>
     <hr class="hr2">
     <div class="section-title">
-      <i class="fa-solid fa-magnifying-glass"></i> Adventure and Exploring
+      <Section iconData={search} title="Adventure and Exploring" />
     </div>
   </div>
 </div>
@@ -99,14 +102,6 @@ li {
   font-family: "Nunito Sans", sans-serif;
   margin-right: 40px;
   margin-left: 10px;
-}
-html {
-  height: 100%;
-}
-
-body {
-  height: 100%;
-  background-color: #cfcfcf;
 }
 
 .readable-area {
@@ -158,9 +153,6 @@ p {
   font-family: "Nunito Sans", sans-serif;
 }
 
-.title-icon {
-  margin-right: 20px;
-}
 
 .profile {
   padding: 4px 18px;
@@ -246,11 +238,6 @@ a.skill {
   font-family: "Nunito Sans", sans-serif;
 }
 
-.fa-magnifying-glass {
-  margin-left: 10px;
-  margin-right: 15px;
-  font-size: 30px;
-}
 
 @media (max-width: 600px){
   .header {
