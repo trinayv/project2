@@ -241,13 +241,13 @@ li {
 
 .skill-title {
   flex: 1;
-  margin-left: 2px;
+  margin-left: 10px;
   font-family: "Nunito Sans", sans-serif;
 }
 
 
 
-@media (min-width: 600px) {
+@media (min-width: 750px) {
 		.header {
 			flex-direction: row;
 		}
@@ -265,7 +265,7 @@ li {
 		}
 	}
 
-	@media (min-width: 1000px) {
+	@media (min-width: 500px) {
 		.readable-area {
 			margin: 0 20%;
 		}
