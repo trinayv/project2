@@ -262,12 +262,15 @@ li {
 
 		.readable-area {
 			margin: 0 10%;
+      margin-left: 2px;
 		}
 	}
 
 	@media (min-width: 500px) {
 		.readable-area {
 			margin: 0 20%;
+       margin-left: 10px;
+
 		}
 	}
 </style>
